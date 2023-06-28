@@ -132,5 +132,38 @@
         "season": 2023,
         "img": "https://cdn.vox-cdn.com/thumbor/WOD4Ll-2skji1YdgR-piW3jT-V4=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22556943/1321320174.jpg"    
     }
+    {
+        "id": 5,
+        "player_name": "Jayson Tatum",
+        "age": 24,
+        "games": 74,
+        "games_started": 74,
+        "minutes_played": 2732,
+        "field_goals": 727,
+        "field_attempts": 1559,
+        "field_percent": "0.466",
+        "three_fg": 240,
+        "three_attempts": 686,
+        "three_percent": "0.350",
+        "two_fg": 487,
+        "two_attempts": 873,
+        "two_percent": "0.558",
+        "effect_fg_percent": "0.543",
+        "ft": 531,
+        "fta": 622,
+        "ft_percent": "0.854",
+        "ORB": 78,
+        "DRB": 571,
+        "TRB": 649,
+        "AST": 342,
+        "STL": 78,
+        "BLK": 51,
+        "TOV": 213,
+        "PF": 160,
+        "PTS": 2225,
+        "team": "BOS",
+        "season": 2023,
+        "img": "https://thespun.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg3NDI1NzAyNzE0Mjg3ODg3/boston-celtics-v-houston-rockets.jpg" 
+    }
   ]
 }

@@ -99,5 +99,38 @@
       "season": 2023,
       "img": "https://a.espncdn.com/media/motion/2023/0424/ss_20230424_221804247_22539651379/ss_20230424_221804247_22539651379.jpg"
     }
+    {
+        "id": 4,
+        "player_name": "Kevin Durant",
+        "age": 34,
+        "games": 39,
+        "games_started": 39,
+        "minutes_played": 1403,
+        "field_goals": 410,
+        "field_attempts": 734,
+        "field_percent": "0.559",
+        "three_fg": 71,
+        "three_attempts": 189,
+        "three_percent": "0.376",
+        "two_fg": 339,
+        "two_attempts": 545,
+        "two_percent": "0.622",
+        "effect_fg_percent": "0.607",
+        "ft": 267,
+        "fta": 286,
+        "ft_percent": "0.934",
+        "ORB": 14,
+        "DRB": 248,
+        "TRB": 262,
+        "AST": 207,
+        "STL": 32,
+        "BLK": 57,
+        "TOV": 136,
+        "PF": 92,
+        "PTS": 1158,
+        "team": "BRK",
+        "season": 2023,
+        "img": "https://cdn.vox-cdn.com/thumbor/WOD4Ll-2skji1YdgR-piW3jT-V4=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22556943/1321320174.jpg"    
+    }
   ]
 }

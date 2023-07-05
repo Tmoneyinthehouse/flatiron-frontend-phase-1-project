@@ -98,7 +98,7 @@
       "team": "MIL",
       "season": 2023,
       "img": "https://a.espncdn.com/media/motion/2023/0424/ss_20230424_221804247_22539651379/ss_20230424_221804247_22539651379.jpg"
-    }
+    },
     {
         "id": 4,
         "player_name": "Kevin Durant",
@@ -131,7 +131,7 @@
         "team": "BRK",
         "season": 2023,
         "img": "https://cdn.vox-cdn.com/thumbor/WOD4Ll-2skji1YdgR-piW3jT-V4=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22556943/1321320174.jpg"    
-    }
+    },
     {
         "id": 5,
         "player_name": "Jayson Tatum",
@@ -164,6 +164,41 @@
         "team": "BOS",
         "season": 2023,
         "img": "https://thespun.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg3NDI1NzAyNzE0Mjg3ODg3/boston-celtics-v-houston-rockets.jpg" 
+    },
+    {
+      "id": 6,
+      "player_name": "Nikola Jokić",
+      "age": 27,
+      "games": 20,
+      "games_started": 20,
+      "minutes_played": 789,
+      "field_goals": 227,
+      "field_attempts": 414,
+      "field_percent": "0.548",
+      "three_fg": 35,
+      "three_attempts": 76,
+      "three_percent": "0.461",
+      "two_fg": 192,
+      "two_attempts": 338,
+      "two_percent": "0.568",
+      "effect_fg_percent": "0.591",
+      "ft": 111,
+      "fta": 139,
+      "ft_percent": "0.799",
+      "ORB": 69,
+      "DRB": 200,
+      "TRB": 269,
+      "AST": 190,
+      "STL": 21,
+      "BLK": 20,
+      "TOV": 70,
+      "PF": 69,
+      "PTS": 600,
+      "team": "DEN",
+      "season": 2023,
+      "img": "https://static01.nyt.com/images/2022/05/02/sports/00nba-mvp-jokic/merlin_204962220_fc67854e-4ccb-4109-bf53-9421d7f5929e-mediumSquareAt3X.jpg"
+    },
+    
     }
   ]
 }

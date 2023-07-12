@@ -198,6 +198,42 @@
       "season": 2023,
       "img": "https://static01.nyt.com/images/2022/05/02/sports/00nba-mvp-jokic/merlin_204962220_fc67854e-4ccb-4109-bf53-9421d7f5929e-mediumSquareAt3X.jpg"
     },
+    {
+      "id": 7,
+      "player_name": "Joel Embiid",
+      "age": 28,
+      "games": 66,
+      "games_started": 66,
+      "minutes_played": 2284,
+      "field_goals": 728,
+      "field_attempts": 1328,
+      "field_percent": "0.548",
+      "three_fg": 66,
+      "three_attempts": 200,
+      "three_percent": "0.330",
+      "two_fg": 662,
+      "two_attempts": 1128,
+      "two_percent": "0.587",
+      "effect_fg_percent": "0.573",
+      "ft": 661,
+      "fta": 771,
+      "ft_percent": "0.857",
+      "ORB": 113,
+      "DRB": 557,
+      "TRB": 670,
+      "AST": 274,
+      "STL": 66,
+      "BLK": 112,
+      "TOV": 226,
+      "PF": 205,
+      "PTS": 2183,
+      "team": "PHI",
+      "season": 2023,
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/230502112647-01-joel-embiid-041723.jpg?c=4x3"
+    },
+    {
+      
+    }
     
     }
   ]

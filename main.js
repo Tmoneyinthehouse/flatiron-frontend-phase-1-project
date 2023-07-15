@@ -1,5 +1,7 @@
 console.log("connected");
 
+const API = "http://localhost:3000/players";
+
 // Elements
 let addPlayer = false;
 
@@ -17,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-fetch("http://localhost:3000/players")
+fetch(API)
   .then((resp) => resp.json())
   .then((players) => player.forEach((player) => renderPlayer(player)));
 

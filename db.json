@@ -107,6 +107,18 @@
       "team": "LAL",
       "season": 2023,
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"
+    },
+    {
+      "id": 10,
+      "player_name": "Stephen Curry",
+      "age": 35,
+      "games": 56,
+      "TRB": 341,
+      "AST": 352,
+      "PTS": 1648,
+      "team": "GSW",
+      "season": 2023,
+      "img": 
     }
   ]
 }

@@ -1,3 +1,5 @@
+console.log("main.js connected");
+
 const playerAPI = "http://localhost:3000/players";
 
 let addPlayer = false;

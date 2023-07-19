@@ -25,3 +25,7 @@ fetch(playerAPI)
   .then(console.log);
 
 //const playerCollection = document.querySelector("#player-collection");
+
+// const cardData = [
+  
+]

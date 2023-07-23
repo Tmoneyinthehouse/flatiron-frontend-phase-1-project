@@ -4,150 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phase 1 Project</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <script defer src="main.js"></script>
   </head>
   <body>
-    <!--header begins--> 
-    
+    <!--header begins-->
+
     <div id="nba-header">
       <img
         src="https://blog.logomyway.com/wp-content/uploads/2017/01/nba-logo-design.jpg"
         alt="nba-header"
+        id="top"
       />
+      <h1 class="main-title">Ten NBA All Stars</h1>
     </div>
     <!--header ends-->
-    
-    <div class="container">
+
+    <button id="new-player-btn">Add Player</button>
+    <div class="search-container">
       <form class="add-player-form">
         <h3>View a Player</h3>
-
+        <label for="player-name">Name:</label>
         <input
           type="text"
+          id="player-name"
           name="name"
-          value=""
           placeholder="Enter a Player's name..."
           class="input-text"
         />
-
+        <label for="player-image">Image URL</label>
         <input
           type="text"
+          id="player-image"
           name="image"
-          value=""
-          placeholder="Enter Player's Team..."
+          placeholder="Enter Player's Image URL..."
           class="input-text"
         />
 
-        <input type="submit" name="submit" value="View Player" class="submit" />
+        <input type="submit" name="submit" value="Add Player" class="submit" />
       </form>
     </div>
+
+    <div class="container"></div>
     <p style="text-align: center">
-      Want to stay informed about your favorite players in the league? 
-      </p>
+      Take a look at your favorite players in the league! There are ten cards to
+      look at. Can you display them all?
     </p>
+
     <div id="player-collection"></div>
-    <script type="text/javascript" src="src/main.js"></script>
-    <header id="top">
-        <h1 class="main-title">Top NBA All Stars</h1>
-        <nav>
-          <ul>
-            <li>
-              <a href="#section1">Kyrie Irving</a>
-            </li>
-            <li>
-              <a href="#section2">Donovan Mitchell</a>
-            </li>
-            <li>
-              <a href="#section3">Giannis Antetokounmpo</a>
-            </li>
-            <li>
-              <a href="#section4">Kevin Durant</a>
-            </li>
-            <li>
-              <a href="#section5">Jayson Tatum</a>
-            </li>
-            <li>
-              <a href="#section6">Nikola Jokić</a>
-            </li>
-            <li>
-              <a href="#section7">Joel Embiid</a>
-            </li>
-            <li>
-              <a href="#section8">Julius Randle</a>
-            </li>
-            <li>
-              <a href="#section9">LeBron James</a>
-            </li>
-            <li>
-              <a href="#section10">Stephen Curry</a>
-            </li>
-          </ul>
-        </nav>
-      <p>
-        
-      </p>
-    </header>
+    <form class="add-player-form"></form>
 
-    <div class="card-container">
-      <div class="card">
-        <h3 class="card-heading">card heading</h3>
-        <p class="card-body">this is card body</p>
-    </div>
-
-
-    <!--js-->
     <script src="main.js"></script>
-    <main>
-      <section id="section1">
-        <h2>Kyrie Irving</h2>
-        <img src="#" alt="some image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti mollitia ex voluptatem ratione illo recusandae delectus suscipit natus eius, molestias reprehenderit quam id vitae nemo accusamus perferendis provident doloremque.</p>
-      </section>
-      <section id="section2">
-        <h2>Donovan Mitchell</h2>
-        <img src="#" alt="some image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti mollitia ex voluptatem ratione illo recusandae delectus suscipit natus eius, molestias reprehenderit quam id vitae nemo accusamus perferendis provident doloremque.</p>
-      </section>
-      <section id="section3">
-        <h2>Giannis Antetokounmpo</h2>
-        <img src="#" alt="some image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti mollitia ex voluptatem ratione illo recusandae delectus suscipit natus eius, molestias reprehenderit quam id vitae nemo accusamus perferendis provident doloremque.</p>
-      </section>
-      <section id="section4">
-        <h2>Kevin Durant</h2>
-        <img src="#" alt="some image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti mollitia ex voluptatem ratione illo recusandae delectus suscipit natus eius, molestias reprehenderit quam id vitae nemo accusamus perferendis provident doloremque.</p>
-      </section>
-      <section id="section5">
-        <h2>Jayson Tatum</h2>
-        <img src="#" alt="some image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti mollitia ex voluptatem ratione illo recusandae delectus suscipit natus eius, molestias reprehenderit quam id vitae nemo accusamus perferendis provident doloremque.</p>
-      </section>
-      <section id="section6">
-        <h2>Nikola Jokić</h2>
-        <img src="#" alt="some image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti mollitia ex voluptatem ratione illo recusandae delectus suscipit natus eius, molestias reprehenderit quam id vitae nemo accusamus perferendis provident doloremque.</p>
-      </section>
-      <section id="section7">
-        <h2>Joel Embiid</h2>
-        <img src="#" alt="some image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti mollitia ex voluptatem ratione illo recusandae delectus suscipit natus eius, molestias reprehenderit quam id vitae nemo accusamus perferendis provident doloremque.</p>
-      </section>
-      <section id="section8">
-        <h2>Julius Randle</h2>
-        <img src="#" alt="some image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti mollitia ex voluptatem ratione illo recusandae delectus suscipit natus eius, molestias reprehenderit quam id vitae nemo accusamus perferendis provident doloremque.</p>
-      </section>
-      <section id="section9">
-        <h2>LeBron James</h2>
-        <img src="#" alt="some image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti mollitia ex voluptatem ratione illo recusandae delectus suscipit natus eius, molestias reprehenderit quam id vitae nemo accusamus perferendis provident doloremque.</p>
-      </section>
-      <section id="section10">
-        <h2>Stephen Curry</h2>
-        <img src="#" alt="some image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corrupti mollitia ex voluptatem ratione illo recusandae delectus suscipit natus eius, molestias reprehenderit quam id vitae nemo accusamus perferendis provident doloremque.</p>
-      </section>
-    </main>
   </body>
 </html>
